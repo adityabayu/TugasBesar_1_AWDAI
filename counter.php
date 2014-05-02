@@ -1,4 +1,4 @@
-Enter file contents here<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
@@ -16,7 +16,7 @@ Enter file contents here<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http:
 <!--1 menghasilkan hari pertama-->
 	$(function () {
 	var austDay = new Date();
-	austDay = new Date(austDay.getFullYear() + 1, 0 , 1);
+	austDay = new Date(austDay.getFullYear() + 0, 4, 5);
 	$('#defaultCountdown').countdown({until: austDay});
 	$('#year').text(austDay.getFullYear());
 	});
@@ -26,16 +26,16 @@ Enter file contents here<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http:
 <!--0 merupakan bulan pertama,1 merupakan hari pertama-->
 	$(function () {
 	var austDay = new Date();
-	austDay = new Date(austDay.getFullYear(), 0 ,1);
+	austDay = new Date(austDay.getFullYear(), 4 ,0);
 	$('#defaultCountUp').countdown({since: austDay});
 	$('#year').text(austDay.getFullYear());
 	});
 	</script>
 </head>
 <body>
-	<h1>Tahun Baru kurang:</h1>
+	<h3>Batas Pengumpulan Tugas:</h3>
 	<div id="defaultCountdown"></div>
-	<h1> Counter ini dibuat sejak:</h1>
+	<h3>Counter ini dibuat sejak:</h3>
 	<div id="defaultCountUp"></div>
 </body>
 </html>
