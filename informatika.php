@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Simak UNSIL</title>
+<title>Teknik Informatika UNSIL</title>
 <style>
 p.padding
 {
