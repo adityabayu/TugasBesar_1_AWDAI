@@ -1,5 +1,6 @@
 <html>
 <head>
+<title>Berita Mancanegara</title>
 <style>
 p.padding
 {
